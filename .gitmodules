@@ -1,0 +1,3 @@
+[submodule "Common-Labview-helpers"]
+	path = Common-Labview-helpers
+	url = https://github.com/pettaa123/Common-Labview-helpers
