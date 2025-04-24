@@ -37,6 +37,7 @@
 	<Item Name="Close.vi" Type="VI" URL="../Close.vi"/>
 	<Item Name="Get Cell Value.vi" Type="VI" URL="../Get Cell Value.vi"/>
 	<Item Name="Get Named Range of Sheet (String).vi" Type="VI" URL="../Get Named Range of Sheet (String).vi"/>
+	<Item Name="Get Named Range of Sheet (VAR).vi" Type="VI" URL="../Get Named Range of Sheet (VAR).vi"/>
 	<Item Name="Get Named Ranges of Sheet.vi" Type="VI" URL="../Get Named Ranges of Sheet.vi"/>
 	<Item Name="Open.vi" Type="VI" URL="../Open.vi"/>
 </Library>
