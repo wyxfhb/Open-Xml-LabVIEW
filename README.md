@@ -18,3 +18,15 @@ Before using this library, ensure you have the following dependencies:
 1. Clone the repository along with submodules:
    ```sh
    git clone --recurse-submodules https://github.com/pettaa123/Open-Xml-LabVIEW
+
+## Public API
+This library provides functions for retrieving cell values and named ranges in an Excel worksheet:
+
+#Get Cell Value
+Returns the value of a given cell, handling both numeric and string types.
+
+Get Named Range of Sheet
+Retrieves a specified named range from a worksheet.
+
+Get Named Ranges of Sheet
+Lists all named ranges defined within a worksheet.

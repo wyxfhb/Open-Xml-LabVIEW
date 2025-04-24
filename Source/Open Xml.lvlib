@@ -13,30 +13,30 @@
 		<Item Name="-8342 Invalid Index--error.vi" Type="VI" URL="../-8342 Invalid Index--error.vi"/>
 		<Item Name="-8343 Not Found--error.vi" Type="VI" URL="../-8343 Not Found--error.vi"/>
 	</Item>
+	<Item Name="_Find Cell.vi" Type="VI" URL="../_Find Cell.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="_Find Named Range.vi" Type="VI" URL="../_Find Named Range.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="_Find Row.vi" Type="VI" URL="../_Find Row.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="_Find SheetData.vi" Type="VI" URL="../_Find SheetData.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="_Find Worksheet.vi" Type="VI" URL="../_Find Worksheet.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="_Get Cell Value.vi" Type="VI" URL="../_Get Cell Value.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="_Look Up SharedString.vi" Type="VI" URL="../_Look Up SharedString.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="Close.vi" Type="VI" URL="../Close.vi"/>
-	<Item Name="Find Cell.vi" Type="VI" URL="../Find Cell.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
-	<Item Name="Find Named Range.vi" Type="VI" URL="../Find Named Range.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
-	<Item Name="Find Row.vi" Type="VI" URL="../Find Row.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
-	<Item Name="Find SheetData.vi" Type="VI" URL="../Find SheetData.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
-	<Item Name="Find Worksheet.vi" Type="VI" URL="../Find Worksheet.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
-	<Item Name="Get Cell (String).vi" Type="VI" URL="../Get Cell (String).vi"/>
-	<Item Name="Get Cell Value (String).vi" Type="VI" URL="../Get Cell Value (String).vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
+	<Item Name="Get Cell Value.vi" Type="VI" URL="../Get Cell Value.vi"/>
 	<Item Name="Get Named Range of Sheet (String).vi" Type="VI" URL="../Get Named Range of Sheet (String).vi"/>
 	<Item Name="Get Named Ranges of Sheet.vi" Type="VI" URL="../Get Named Ranges of Sheet.vi"/>
-	<Item Name="Look Up SharedString.vi" Type="VI" URL="../Look Up SharedString.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
 	<Item Name="Open.vi" Type="VI" URL="../Open.vi"/>
 </Library>
