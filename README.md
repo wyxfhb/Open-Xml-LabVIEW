@@ -14,7 +14,7 @@ Before using this library, ensure you have the following dependencies:
   
   **Note:** It is recommended to place these DLLs next to each other within your project folder.
   
-## Locating `DocumentFormat.OpenXml.dll` and `DocumentFormat.OpenXml.Framework.dll` Installed via NuGet
+## Locating DocumentFormat.OpenXml.dll and DocumentFormat.OpenXml.Framework.dll Installed via NuGet
 C:\Users\<YourUserName>\.nuget\packages\documentformat.openxml.framework\3.3.0\lib\net46
 C:\Users\<YourUserName>\.nuget\packages\documentformat.openxml\3.3.0\lib\net46
 
