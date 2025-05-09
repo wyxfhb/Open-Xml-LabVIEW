@@ -7,6 +7,7 @@ This wrapper is tested against OpenXML version 3.3.0 and .NET Framework 4.6.
 
 Before using this library, ensure you have the following dependencies:
 
+- **LabVIEW 21**
 - **LUnit Test Framework** – [GitHub Repository](https://github.com/Astemes/astemes-lunit)
 - **Open XML SDK** – Download the following DLLs via NuGet or other sources:
   - `DocumentFormat.OpenXml.dll`
@@ -32,7 +33,12 @@ Returns the value of a given worksheet's cell, handling numeric, boolean and str
 
 ![readcell](sample_get_cell_value.png)
 
-# Get Named Range of Sheet
+# Get Named Range of Sheet (String)
+Retrieves a specified named range from a worksheet.
+
+![readcell](sample_get_named_range_var.png)
+
+# Get Named Range of Sheet (VAR)
 Retrieves a specified named range from a worksheet.
 
 # Get Named Ranges of Sheet
