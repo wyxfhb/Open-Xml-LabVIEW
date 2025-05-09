@@ -1,6 +1,7 @@
 # OpenXML LabVIEW
 
 A lightweight wrapper for reading `.xlsx` Excel files using Open XML.
+This wrapper is tested against OpenXML version 3.3.0 and .NET Framework 4.6.
 
 ## Prerequisites
 
@@ -12,6 +13,10 @@ Before using this library, ensure you have the following dependencies:
   - `DocumentFormat.OpenXml.Framework.dll`
   
   **Note:** It is recommended to place these DLLs next to each other within your project folder.
+  
+## Locating `DocumentFormat.OpenXml.dll` and `DocumentFormat.OpenXml.Framework.dll` Installed via NuGet
+C:\Users\<YourUserName>\.nuget\packages\documentformat.openxml.framework\3.3.0\lib\net46
+C:\Users\<YourUserName>\.nuget\packages\documentformat.openxml\3.3.0\lib\net46
 
 ## Installation
 
@@ -23,7 +28,7 @@ Before using this library, ensure you have the following dependencies:
 This library provides functions for retrieving cell values and named ranges in an Excel worksheet:
 
 # Get Cell Value
-Returns the value of a given cell, handling numeric, boolean and string types.
+Returns the value of a given worksheet's cell, handling numeric, boolean and string types.
 
 ![readcell](sample_get_cell_value.png)
 
