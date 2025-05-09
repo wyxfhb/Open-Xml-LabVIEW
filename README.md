@@ -25,7 +25,7 @@ This library provides functions for retrieving cell values and named ranges in a
 # Get Cell Value
 Returns the value of a given cell, handling numeric, boolean and string types.
 
-![readcell](sample get cell value.png)
+![readcell](sample_get_cell_value.png)
 
 # Get Named Range of Sheet
 Retrieves a specified named range from a worksheet.
