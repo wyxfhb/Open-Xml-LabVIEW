@@ -17,8 +17,6 @@
 			<Item Name="memory leaks.vi" Type="VI" URL="../Test Open Xml/memory leaks.vi"/>
 			<Item Name="Test Open Xml.lvclass" Type="LVClass" URL="../Test Open Xml/Test Open Xml.lvclass"/>
 		</Item>
-		<Item Name="Excel Cell Address to Numeric Indices.vi" Type="VI" URL="../Source/Excel Cell Address to Numeric Indices.vi"/>
-		<Item Name="Numeric Indices to Excel Cell Address.vi" Type="VI" URL="../Source/Numeric Indices to Excel Cell Address.vi"/>
 		<Item Name="Open Xml.lvlib" Type="Library" URL="../Source/Open Xml.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
