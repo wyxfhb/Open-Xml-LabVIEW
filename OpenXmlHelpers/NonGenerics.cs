@@ -1,14 +1,17 @@
 ﻿using DocumentFormat.OpenXml;
+using DocumentFormat.OpenXml.Office2016.Drawing.ChartDrawing;
 using DocumentFormat.OpenXml.Packaging;
 using DocumentFormat.OpenXml.Spreadsheet;
+using System;
 using System.Linq;
+using static OpenXmlHelpers.NonGenerics;
 
 namespace OpenXmlHelpers
 {
     // Non-generic wrapper: ensures a SharedStringTablePart exists
     public static class NonGenerics
     {
-        public static SharedStringTablePart GetOrAddSharedStringTablePart(WorkbookPart workbookPart)
+        private static SharedStringTablePart _GetOrAddSharedStringTablePart(WorkbookPart workbookPart)
         {
             var sstPart = workbookPart.GetPartsOfType<SharedStringTablePart>().FirstOrDefault();
             if (sstPart == null)
@@ -22,7 +25,7 @@ namespace OpenXmlHelpers
         // Example: add a string and return its index
         public static int InsertSharedString(WorkbookPart workbookPart, string text)
         {
-            var sstPart = GetOrAddSharedStringTablePart(workbookPart);
+            var sstPart = _GetOrAddSharedStringTablePart(workbookPart);
             var sst = sstPart.SharedStringTable;
 
             // Check if string already exists
@@ -35,12 +38,49 @@ namespace OpenXmlHelpers
             }
 
             // Otherwise, add it
-            sst.AppendChild(new SharedStringItem(new Text(text)));
+            sst.AppendChild(new SharedStringItem(new DocumentFormat.OpenXml.Spreadsheet.Text(text)));
             return i;
         }
 
-        public static WorkbookPart GetOrAddWorkbookPart(SpreadsheetDocument spreadSheet) {
-            return spreadSheet.WorkbookPart ?? spreadSheet.AddWorkbookPart();
+        //public static WorkbookPart GetOrAddWorkbookPart(SpreadsheetDocument spreadSheet) {
+        //    return spreadSheet.WorkbookPart ?? spreadSheet.AddWorkbookPart();
+        //}
+        public enum PartType
+        {
+            Worksheet,
+            SharedString
+        }
+        // Add a WorksheetPart to the WorkbookPart
+        public static OpenXmlPart AddNewPart(WorkbookPart workbookPart,PartType partType) {
+            switch (partType)
+            {
+                case PartType.Worksheet:
+                    return workbookPart.AddNewPart<WorksheetPart>();
+                case PartType.SharedString:
+                    return workbookPart.AddNewPart<SharedStringTablePart>();
+                default:
+                    throw new ArgumentException("Unsupported part type");
+            }
+        }
+
+        // Add Sheet
+        public static Sheet AddSheet(WorkbookPart workbookPart, WorksheetPart newWorksheetPart,  string sheetName)
+        {
+            Sheets sheets = workbookPart.Workbook.GetFirstChild<Sheets>() ?? workbookPart.Workbook.AppendChild(new Sheets());
+            string relationshipId = workbookPart.GetIdOfPart(newWorksheetPart);
+
+            // Get a unique ID for the new worksheet.
+            uint sheetId = 1;
+            if (sheets.Elements<Sheet>().Count() > 0)
+            {
+                sheetId = (sheets.Elements<Sheet>().Select(s => s.SheetId?.Value).Max() + 1) ?? (uint)sheets.Elements<Sheet>().Count() + 1;
+            }
+
+            // Append the new worksheet and associate it with the workbook.
+            Sheet sheet = new Sheet() { Id = relationshipId, SheetId = sheetId, Name = sheetName };
+            sheets.Append(sheet);
+
+            return sheet;
         }
 
         // Given a WorkbookPart, inserts a new worksheet.

@@ -13,7 +13,9 @@
 		<Item Name="-8342 Invalid Index--error.vi" Type="VI" URL="../-8342 Invalid Index--error.vi"/>
 		<Item Name="-8343 Not Found--error.vi" Type="VI" URL="../-8343 Not Found--error.vi"/>
 		<Item Name="-8344 Invalid Cell Value Type--error.vi" Type="VI" URL="../-8344 Invalid Cell Value Type--error.vi"/>
+		<Item Name="-8345 file already exists--error.vi" Type="VI" URL="../-8345 file already exists--error.vi"/>
 	</Item>
+	<Item Name="_Add Part.vi" Type="VI" URL="../_Add Part.vi"/>
 	<Item Name="_Find Cell.vi" Type="VI" URL="../_Find Cell.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
@@ -32,13 +34,18 @@
 	<Item Name="_Get Cell Value.vi" Type="VI" URL="../_Get Cell Value.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="_Get or Add Sheets.vi" Type="VI" URL="../_Get or Add Sheets.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="_Get or Add Workbookpart.vi" Type="VI" URL="../_Get or Add Workbookpart.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="_Look Up SharedString.vi" Type="VI" URL="../_Look Up SharedString.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Add Sheet.vi" Type="VI" URL="../Add Sheet.vi"/>
 	<Item Name="Close.vi" Type="VI" URL="../Close.vi"/>
+	<Item Name="Create.vi" Type="VI" URL="../Create.vi"/>
 	<Item Name="Excel Cell Address to Numeric Indices.vi" Type="VI" URL="../Excel Cell Address to Numeric Indices.vi"/>
 	<Item Name="File Exists.vi" Type="VI" URL="../File Exists.vi"/>
 	<Item Name="Get Cell Value.vi" Type="VI" URL="../Get Cell Value.vi"/>

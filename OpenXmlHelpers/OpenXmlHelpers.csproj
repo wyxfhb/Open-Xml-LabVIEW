@@ -32,10 +32,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DocumentFormat.OpenXml">
-      <HintPath>..\..\DocumentFormat.OpenXml.dll</HintPath>
+      <HintPath>..\dll\DocumentFormat.OpenXml.dll</HintPath>
     </Reference>
     <Reference Include="DocumentFormat.OpenXml.Framework">
-      <HintPath>..\..\DocumentFormat.OpenXml.Framework.dll</HintPath>
+      <HintPath>..\dll\DocumentFormat.OpenXml.Framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -51,4 +51,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy /Y "$(TargetDir)$(TargetName).dll" "..\..\..\dll\"
+
+xcopy /Y "$(TargetDir)$(TargetName).pdb" "..\..\..\dll\"
+del /Q "$(TargetDir)*.*"</PostBuildEvent>
+  </PropertyGroup>
 </Project>
