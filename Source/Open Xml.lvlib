@@ -15,7 +15,9 @@
 		<Item Name="-8344 Invalid Cell Value Type--error.vi" Type="VI" URL="../-8344 Invalid Cell Value Type--error.vi"/>
 		<Item Name="-8345 file already exists--error.vi" Type="VI" URL="../-8345 file already exists--error.vi"/>
 	</Item>
+	<Item Name="_Add Cell.vi" Type="VI" URL="../_Add Cell.vi"/>
 	<Item Name="_Add Part.vi" Type="VI" URL="../_Add Part.vi"/>
+	<Item Name="_Add Row.vi" Type="VI" URL="../_Add Row.vi"/>
 	<Item Name="_Find Cell.vi" Type="VI" URL="../_Find Cell.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
@@ -25,13 +27,18 @@
 	<Item Name="_Find Row.vi" Type="VI" URL="../_Find Row.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="_Find SheetData.vi" Type="VI" URL="../_Find SheetData.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
+	<Item Name="_Find Sheet.vi" Type="VI" URL="../_Find Sheet.vi"/>
 	<Item Name="_Find Worksheet.vi" Type="VI" URL="../_Find Worksheet.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="_Get Cell Value.vi" Type="VI" URL="../_Get Cell Value.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="_Get Cell.vi" Type="VI" URL="../_Get Cell.vi"/>
+	<Item Name="_Get or Add Cell.vi" Type="VI" URL="../_Get or Add Cell.vi"/>
+	<Item Name="_Get or Add Row.vi" Type="VI" URL="../_Get or Add Row.vi"/>
+	<Item Name="_Get or Add SharedStringTable.vi" Type="VI" URL="../_Get or Add SharedStringTable.vi"/>
+	<Item Name="_Get or Add SharedStringTablePart.vi" Type="VI" URL="../_Get or Add SharedStringTablePart.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="_Get or Add Sheets.vi" Type="VI" URL="../_Get or Add Sheets.vi">
@@ -40,6 +47,17 @@
 	<Item Name="_Get or Add Workbookpart.vi" Type="VI" URL="../_Get or Add Workbookpart.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="_Get or Add WorksheetPart.vi" Type="VI" URL="../_Get or Add WorksheetPart.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="_Get Row in Worksheet.vi" Type="VI" URL="../_Get Row in Worksheet.vi"/>
+	<Item Name="_Get Sheet.vi" Type="VI" URL="../_Get Sheet.vi"/>
+	<Item Name="_Get SheetData.vi" Type="VI" URL="../_Get SheetData.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="_Get Sheets.vi" Type="VI" URL="../_Get Sheets.vi"/>
+	<Item Name="_Get WorksheetPart.vi" Type="VI" URL="../_Get WorksheetPart.vi"/>
+	<Item Name="_Insert SharedString.vi" Type="VI" URL="../_Insert SharedString.vi"/>
 	<Item Name="_Look Up SharedString.vi" Type="VI" URL="../_Look Up SharedString.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
@@ -54,5 +72,6 @@
 	<Item Name="Get Named Ranges of Sheet.vi" Type="VI" URL="../Get Named Ranges of Sheet.vi"/>
 	<Item Name="Numeric Indices to Excel Cell Address.vi" Type="VI" URL="../Numeric Indices to Excel Cell Address.vi"/>
 	<Item Name="Open.vi" Type="VI" URL="../Open.vi"/>
+	<Item Name="Save.vi" Type="VI" URL="../Save.vi"/>
 	<Item Name="Set Cell Value.vi" Type="VI" URL="../Set Cell Value.vi"/>
 </Library>
