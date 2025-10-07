@@ -2,6 +2,7 @@
 using System;
 
 using DocumentFormat.OpenXml.Spreadsheet;
+using OpenXmlGenericsWrapper;
 
 namespace OpenXmlGenericsWrapper.Tests
 {
@@ -9,11 +10,13 @@ namespace OpenXmlGenericsWrapper.Tests
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestSetCellDatatype1()
         {
-            Text txt = new DocumentFormat.OpenXml.Spreadsheet.Text("Otto");
-            string result = txt.InnerText;
-            Assert.AreEqual("Otto", result);
+            Cell cell = new DocumentFormat.OpenXml.Spreadsheet.Cell();
+            cell.CellValue = new CellValue("2006-01-01T06:30:00.123Z");
+            cell = OpenXmlGenericsWrapper.NonGenerics.SetCellDatatype(cell, NonGenerics.DataType.Boolean);
+            Boolean equal = (cell.DataType.Equals(CellValues.Boolean)) ;
+            Assert.AreEqual(cell.DataType, CellValues.Boolean);
         }
     }
 }

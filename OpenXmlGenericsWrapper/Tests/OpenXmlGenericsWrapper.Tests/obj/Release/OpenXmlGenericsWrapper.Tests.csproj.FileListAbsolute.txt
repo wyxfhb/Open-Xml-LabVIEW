@@ -15,3 +15,5 @@ D:\git\Open-Xml-LabVIEW\OpenXmlGenericsWrapper\Tests\OpenXmlGenericsWrapper.Test
 D:\git\Open-Xml-LabVIEW\OpenXmlGenericsWrapper\Tests\OpenXmlGenericsWrapper.Tests\obj\Release\OpenXmlG.BEE92B1F.Up2Date
 D:\git\Open-Xml-LabVIEW\OpenXmlGenericsWrapper\Tests\OpenXmlGenericsWrapper.Tests\obj\Release\OpenXmlGenericsWrapper.Tests.dll
 D:\git\Open-Xml-LabVIEW\OpenXmlGenericsWrapper\Tests\OpenXmlGenericsWrapper.Tests\obj\Release\OpenXmlGenericsWrapper.Tests.pdb
+D:\git\Open-Xml-LabVIEW\OpenXmlGenericsWrapper\Tests\OpenXmlGenericsWrapper.Tests\bin\Release\OpenXmlGenericsWrapper.dll
+D:\git\Open-Xml-LabVIEW\OpenXmlGenericsWrapper\Tests\OpenXmlGenericsWrapper.Tests\bin\Release\OpenXmlGenericsWrapper.pdb

@@ -17,19 +17,52 @@ namespace OpenXmlGenericsWrapper
             row.InsertBefore<Cell>(newChild, referenceChild);
             return newChild;
         }
+        //Boolean => new CellValues("b");
+        //Number => new CellValues("n");
+        //Error => new CellValues("e");
+        //SharedString => new CellValues("s");
+        //String => new CellValues("str");
+        //InlineString => new CellValues("inlineStr");
+        //Date => new CellValues("d");
         public enum DataType
         {
-            SharedString
+            Boolean,
+            Number,
+            Error,
+            SharedString,
+            String,
+            InlineString,
+            Date
         }
 
         public static Cell SetCellDatatype(Cell cell, DataType datatype)
         {
             switch (datatype)
             {
+                case DataType.Boolean:
+                    cell.DataType = new EnumValue<CellValues>(CellValues.Boolean);
+                    break;
+                case DataType.Number:
+                    cell.DataType = new EnumValue<CellValues>(CellValues.Number);
+                    break;
+                case DataType.Error:
+                    cell.DataType = new EnumValue<CellValues>(CellValues.Error);
+                    break;
                 case DataType.SharedString:
                     cell.DataType = new EnumValue<CellValues>(CellValues.SharedString);
                     break;
-                    // You can add more cases here for other DataType values if needed
+                case DataType.String:
+                    cell.DataType = new EnumValue<CellValues>(CellValues.String);
+                    break;
+                case DataType.InlineString:
+                    cell.DataType = new EnumValue<CellValues>(CellValues.InlineString);
+                    break;
+                case DataType.Date:
+                    cell.DataType = new EnumValue<CellValues>(CellValues.Date);
+                    break;
+                default:
+                    cell.DataType = null;
+                    break;
             }
 
             return cell;
@@ -47,7 +80,8 @@ namespace OpenXmlGenericsWrapper
             SharedString
         }
         // Add a WorksheetPart to the WorkbookPart
-        public static OpenXmlPart AddNewPart(WorkbookPart workbookPart,PartType partType) {
+        public static OpenXmlPart AddNewPart(WorkbookPart workbookPart, PartType partType)
+        {
             switch (partType)
             {
                 case PartType.Worksheet:

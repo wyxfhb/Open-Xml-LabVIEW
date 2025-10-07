@@ -14,10 +14,14 @@
 		<Item Name="-8343 Not Found--error.vi" Type="VI" URL="../-8343 Not Found--error.vi"/>
 		<Item Name="-8344 Invalid Cell Value Type--error.vi" Type="VI" URL="../-8344 Invalid Cell Value Type--error.vi"/>
 		<Item Name="-8345 file already exists--error.vi" Type="VI" URL="../-8345 file already exists--error.vi"/>
+		<Item Name="-8346 Unsupported Value Type--error.vi" Type="VI" URL="../-8346 Unsupported Value Type--error.vi"/>
 	</Item>
 	<Item Name="_Add Cell.vi" Type="VI" URL="../_Add Cell.vi"/>
 	<Item Name="_Add Part.vi" Type="VI" URL="../_Add Part.vi"/>
 	<Item Name="_Add Row.vi" Type="VI" URL="../_Add Row.vi"/>
+	<Item Name="_Add Sheet.vi" Type="VI" URL="../_Add Sheet.vi"/>
+	<Item Name="_Construct CellValue.vi" Type="VI" URL="../_Construct CellValue.vi"/>
+	<Item Name="_Create Unique SheetID.vi" Type="VI" URL="../_Create Unique SheetID.vi"/>
 	<Item Name="_Find Cell.vi" Type="VI" URL="../_Find Cell.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
@@ -27,7 +31,6 @@
 	<Item Name="_Find Row.vi" Type="VI" URL="../_Find Row.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="_Find Sheet.vi" Type="VI" URL="../_Find Sheet.vi"/>
 	<Item Name="_Find Worksheet.vi" Type="VI" URL="../_Find Worksheet.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
@@ -44,6 +47,7 @@
 	<Item Name="_Get or Add Sheets.vi" Type="VI" URL="../_Get or Add Sheets.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="_Get or Add Workbook.vi" Type="VI" URL="../_Get or Add Workbook.vi"/>
 	<Item Name="_Get or Add Workbookpart.vi" Type="VI" URL="../_Get or Add Workbookpart.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
@@ -61,7 +65,10 @@
 	<Item Name="_Look Up SharedString.vi" Type="VI" URL="../_Look Up SharedString.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="_Set Cell DataType.vi" Type="VI" URL="../_Set Cell DataType.vi"/>
+	<Item Name="_Set CellValue.vi" Type="VI" URL="../_Set CellValue.vi"/>
 	<Item Name="Add Sheet.vi" Type="VI" URL="../Add Sheet.vi"/>
+	<Item Name="Cell DataType.ctl" Type="VI" URL="../Cell DataType.ctl"/>
 	<Item Name="Close.vi" Type="VI" URL="../Close.vi"/>
 	<Item Name="Create.vi" Type="VI" URL="../Create.vi"/>
 	<Item Name="Excel Cell Address to Numeric Indices.vi" Type="VI" URL="../Excel Cell Address to Numeric Indices.vi"/>
@@ -73,5 +80,5 @@
 	<Item Name="Numeric Indices to Excel Cell Address.vi" Type="VI" URL="../Numeric Indices to Excel Cell Address.vi"/>
 	<Item Name="Open.vi" Type="VI" URL="../Open.vi"/>
 	<Item Name="Save.vi" Type="VI" URL="../Save.vi"/>
-	<Item Name="Set Cell Value.vi" Type="VI" URL="../Set Cell Value.vi"/>
+	<Item Name="Set Cell Value.vim" Type="VI" URL="../Set Cell Value.vim"/>
 </Library>
