@@ -12,18 +12,18 @@ namespace OpenXmlGenericsWrapper
     public static class NonGenerics
     {
 
-        public static Cell InsertBeforeCell(Row row, Cell newChild, Cell referenceChild)
+        public static void InsertBeforeCell(Row row, Cell newChild, Cell referenceChild)
         {
             row.InsertBefore<Cell>(newChild, referenceChild);
-            return newChild;
+            return;
         }
-        //Boolean => new CellValues("b");
-        //Number => new CellValues("n");
-        //Error => new CellValues("e");
-        //SharedString => new CellValues("s");
-        //String => new CellValues("str");
-        //InlineString => new CellValues("inlineStr");
-        //Date => new CellValues("d");
+
+        public static void InsertBeforeRow(SheetData sheetData, Row newRow, Row referenceRow)
+        {
+            sheetData.InsertBefore<Row>(newRow, referenceRow);
+            return;
+        }
+
         public enum DataType
         {
             Boolean,
@@ -35,7 +35,7 @@ namespace OpenXmlGenericsWrapper
             Date
         }
 
-        public static Cell SetCellDatatype(Cell cell, DataType datatype)
+        public static void SetCellDatatype(Cell cell, DataType datatype)
         {
             switch (datatype)
             {
@@ -65,19 +65,20 @@ namespace OpenXmlGenericsWrapper
                     break;
             }
 
-            return cell;
+            return;
         }
 
-        public static Cell SetCellReference(Cell cell, string value)
+        public static void SetCellReference(Cell cell, string value)
         {
             cell.CellReference = new StringValue(value);
-            return cell;
+            return;
         }
 
         public enum PartType
         {
+            SharedString,
             Worksheet,
-            SharedString
+            WorkbookStyles
         }
         // Add a WorksheetPart to the WorkbookPart
         public static OpenXmlPart AddNewPart(WorkbookPart workbookPart, PartType partType)
@@ -88,6 +89,8 @@ namespace OpenXmlGenericsWrapper
                     return workbookPart.AddNewPart<WorksheetPart>();
                 case PartType.SharedString:
                     return workbookPart.AddNewPart<SharedStringTablePart>();
+                case PartType.WorkbookStyles:
+                    return workbookPart.AddNewPart<WorkbookStylesPart>();
                 default:
                     throw new ArgumentException("Unsupported part type");
             }
