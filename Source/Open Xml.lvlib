@@ -140,4 +140,13 @@
 	<Item Name="Get or Add WorkbookStylesPart.vi" Type="VI" URL="../Get or Add WorkbookStylesPart.vi"/>
 	<Item Name="Get or Add NumberingFormats.vi" Type="VI" URL="../Get or Add NumberingFormats.vi"/>
 	<Item Name="Get or Add CellFormats.vi" Type="VI" URL="../Get or Add CellFormats.vi"/>
+	<Item Name="Construct CellFormat.vi" Type="VI" URL="../Construct CellFormat.vi"/>
+	<Item Name="Get or Add Fonts.vi" Type="VI" URL="../Get or Add Fonts.vi"/>
+	<Item Name="Get or Add Font.vi" Type="VI" URL="../Get or Add Font.vi"/>
+	<Item Name="Get Font.vi" Type="VI" URL="../Get Font.vi"/>
+	<Item Name="Font.ctl" Type="VI" URL="../Font.ctl"/>
+	<Item Name="Set Font.vi" Type="VI" URL="../../Test Open Xml/Set Font.vi"/>
+	<Item Name="Set Cell Font.vi" Type="VI" URL="../../Test Open Xml/Set Cell Font.vi"/>
+	<Item Name="Add Font to Stylesheet.vi" Type="VI" URL="../Add Font to Stylesheet.vi"/>
+	<Item Name="Add Cell Format.vi" Type="VI" URL="../Add Cell Format.vi"/>
 </Library>

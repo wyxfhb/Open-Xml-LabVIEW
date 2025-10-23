@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\git\\Open-Xml-LabVIEW\\OpenXmlGenericsWrapper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE94659A-C76A-47F7-8C98-5CDCCA37515F}|OpenXmlGenericsWrapper.csproj|d:\\git\\open-xml-labview\\openxmlgenericswrapper\\nongenerics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE94659A-C76A-47F7-8C98-5CDCCA37515F}|OpenXmlGenericsWrapper.csproj|solutionrelative:nongenerics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4CB97AD0-5879-4932-9F6C-C947D372BC24}|Tests\\OpenXmlGenericsWrapper.Tests\\OpenXmlGenericsWrapper.Tests.csproj|d:\\git\\open-xml-labview\\openxmlgenericswrapper\\tests\\openxmlgenericswrapper.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB97AD0-5879-4932-9F6C-C947D372BC24}|Tests\\OpenXmlGenericsWrapper.Tests\\OpenXmlGenericsWrapper.Tests.csproj|solutionrelative:tests\\openxmlgenericswrapper.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CB97AD0-5879-4932-9F6C-C947D372BC24}|Tests\\OpenXmlGenericsWrapper.Tests\\OpenXmlGenericsWrapper.Tests.csproj|D:\\git\\Open-Xml-LabVIEW\\OpenXmlGenericsWrapper\\tests\\openxmlgenericswrapper.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CB97AD0-5879-4932-9F6C-C947D372BC24}|Tests\\OpenXmlGenericsWrapper.Tests\\OpenXmlGenericsWrapper.Tests.csproj|solutionrelative:tests\\openxmlgenericswrapper.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE94659A-C76A-47F7-8C98-5CDCCA37515F}|OpenXmlGenericsWrapper.csproj|D:\\git\\Open-Xml-LabVIEW\\OpenXmlGenericsWrapper\\nongenerics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE94659A-C76A-47F7-8C98-5CDCCA37515F}|OpenXmlGenericsWrapper.csproj|solutionrelative:nongenerics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE94659A-C76A-47F7-8C98-5CDCCA37515F}|OpenXmlGenericsWrapper.csproj|D:\\git\\Open-Xml-LabVIEW\\OpenXmlGenericsWrapper\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -44,14 +44,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NonGenerics.cs",
-              "DocumentMoniker": "D:\\git\\Open-Xml-LabVIEW\\OpenXmlGenericsWrapper\\NonGenerics.cs",
-              "RelativeDocumentMoniker": "NonGenerics.cs",
-              "ToolTip": "D:\\git\\Open-Xml-LabVIEW\\OpenXmlGenericsWrapper\\NonGenerics.cs",
-              "RelativeToolTip": "NonGenerics.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAADwv1gAAAAyAAAAAAAAAA==",
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\git\\Open-Xml-LabVIEW\\OpenXmlGenericsWrapper\\Tests\\OpenXmlGenericsWrapper.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "Tests\\OpenXmlGenericsWrapper.Tests\\UnitTest1.cs",
+              "ToolTip": "D:\\git\\Open-Xml-LabVIEW\\OpenXmlGenericsWrapper\\Tests\\OpenXmlGenericsWrapper.Tests\\UnitTest1.cs*",
+              "RelativeToolTip": "Tests\\OpenXmlGenericsWrapper.Tests\\UnitTest1.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T06:35:45.544Z",
+              "WhenOpened": "2025-10-04T18:39:59.582Z",
               "EditorCaption": ""
             },
             {
@@ -65,14 +65,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "D:\\git\\Open-Xml-LabVIEW\\OpenXmlGenericsWrapper\\Tests\\OpenXmlGenericsWrapper.Tests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "Tests\\OpenXmlGenericsWrapper.Tests\\UnitTest1.cs",
-              "ToolTip": "D:\\git\\Open-Xml-LabVIEW\\OpenXmlGenericsWrapper\\Tests\\OpenXmlGenericsWrapper.Tests\\UnitTest1.cs",
-              "RelativeToolTip": "Tests\\OpenXmlGenericsWrapper.Tests\\UnitTest1.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAIwBEAAAAVAAAAAAAAAA==",
+              "Title": "NonGenerics.cs",
+              "DocumentMoniker": "D:\\git\\Open-Xml-LabVIEW\\OpenXmlGenericsWrapper\\NonGenerics.cs",
+              "RelativeDocumentMoniker": "NonGenerics.cs",
+              "ToolTip": "D:\\git\\Open-Xml-LabVIEW\\OpenXmlGenericsWrapper\\NonGenerics.cs",
+              "RelativeToolTip": "NonGenerics.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAADwv1AAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T18:39:59.582Z"
+              "WhenOpened": "2025-10-02T06:35:45.544Z"
             },
             {
               "$type": "Document",
