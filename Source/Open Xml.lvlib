@@ -53,13 +53,13 @@
 	<Item Name="_Get Cell Value.vi" Type="VI" URL="../_Get Cell Value.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="_Get Cell.vi" Type="VI" URL="../_Get Cell.vi">
+	<Item Name="Get Cell.vi" Type="VI" URL="../Get Cell.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="_Get or Add Cell.vi" Type="VI" URL="../_Get or Add Cell.vi">
+	<Item Name="Get or Add Cell.vi" Type="VI" URL="../Get or Add Cell.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="_Get or Add Row.vi" Type="VI" URL="../_Get or Add Row.vi">
+	<Item Name="Get or Add Row.vi" Type="VI" URL="../Get or Add Row.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Get or Add SharedStringTable.vi" Type="VI" URL="../Get or Add SharedStringTable.vi">
@@ -82,7 +82,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="_Get Sheets.vi" Type="VI" URL="../_Get Sheets.vi"/>
-	<Item Name="_Get WorksheetPart.vi" Type="VI" URL="../_Get WorksheetPart.vi"/>
+	<Item Name="Get WorksheetPart.vi" Type="VI" URL="../Get WorksheetPart.vi"/>
 	<Item Name="_Insert SharedString.vi" Type="VI" URL="../_Insert SharedString.vi"/>
 	<Item Name="_Look Up SharedString.vi" Type="VI" URL="../_Look Up SharedString.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -143,10 +143,56 @@
 	<Item Name="Construct CellFormat.vi" Type="VI" URL="../Construct CellFormat.vi"/>
 	<Item Name="Get or Add Fonts.vi" Type="VI" URL="../Get or Add Fonts.vi"/>
 	<Item Name="Get or Add Font.vi" Type="VI" URL="../Get or Add Font.vi"/>
-	<Item Name="Get Font.vi" Type="VI" URL="../Get Font.vi"/>
+	<Item Name="Find Font.vi" Type="VI" URL="../Find Font.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="Font.ctl" Type="VI" URL="../Font.ctl"/>
 	<Item Name="Set Font.vi" Type="VI" URL="../../Test Open Xml/Set Font.vi"/>
 	<Item Name="Set Cell Font.vi" Type="VI" URL="../../Test Open Xml/Set Cell Font.vi"/>
-	<Item Name="Add Font to Stylesheet.vi" Type="VI" URL="../Add Font to Stylesheet.vi"/>
-	<Item Name="Add Cell Format.vi" Type="VI" URL="../Add Cell Format.vi"/>
+	<Item Name="Add Font to Stylesheet.vi" Type="VI" URL="../Add Font to Stylesheet.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Add Cell Format.vi" Type="VI" URL="../Add Cell Format.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Ensure Default Font.vi" Type="VI" URL="../Ensure Default Font.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Ensure Default Fills.vi" Type="VI" URL="../Ensure Default Fills.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Get or Add Fills.vi" Type="VI" URL="../Get or Add Fills.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Add Border to Stylesheet.vi" Type="VI" URL="../Add Border to Stylesheet.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Ensure Default Border.vi" Type="VI" URL="../Ensure Default Border.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Get or Add Borders.vi" Type="VI" URL="../Get or Add Borders.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Add Fill to Stylesheet.vi" Type="VI" URL="../Add Fill to Stylesheet.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Create Fill.vi" Type="VI" URL="../Create Fill.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Read Font.vi" Type="VI" URL="../Read Font.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Ensure Default CellFormat.vi" Type="VI" URL="../Ensure Default CellFormat.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Add CellFormat to Stylesheet.vi" Type="VI" URL="../Add CellFormat to Stylesheet.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Get Font.vi" Type="VI" URL="../Get Font.vi"/>
+	<Item Name="Find Cell.vi" Type="VI" URL="../Find Cell.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Find Row.vi" Type="VI" URL="../Find Row.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 </Library>

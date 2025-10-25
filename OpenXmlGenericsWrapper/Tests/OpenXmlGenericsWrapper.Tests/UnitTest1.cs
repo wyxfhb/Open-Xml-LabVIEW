@@ -3,6 +3,7 @@ using System;
 
 using DocumentFormat.OpenXml.Spreadsheet;
 using OpenXmlGenericsWrapper;
+using DocumentFormat.OpenXml;
 
 namespace OpenXmlGenericsWrapper.Tests
 {
@@ -12,6 +13,15 @@ namespace OpenXmlGenericsWrapper.Tests
         [TestMethod]
         public void TestSetCellDatatype1()
         {
+            Fonts fonts1 = new Fonts() { Count = (UInt32Value)1U };
+            Font font1 = new Font();
+            Font font2 = new Font();
+
+            fonts1.Append(font1);
+            int cnt = fonts1.ChildElements.Count;
+            fonts1.Append(font2);
+            cnt = fonts1.ChildElements.Count;
+
             UnderlineValues underlineValues = new UnderlineValues("single");
             Underline underline = new Underline();
             underline.Val = underlineValues;

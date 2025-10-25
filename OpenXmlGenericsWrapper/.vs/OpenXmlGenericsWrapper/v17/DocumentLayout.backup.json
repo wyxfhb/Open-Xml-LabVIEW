@@ -25,7 +25,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,27 +51,28 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\git\\Open-Xml-LabVIEW\\OpenXmlGenericsWrapper\\Tests\\OpenXmlGenericsWrapper.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "Tests\\OpenXmlGenericsWrapper.Tests\\UnitTest1.cs",
+              "ToolTip": "D:\\git\\Open-Xml-LabVIEW\\OpenXmlGenericsWrapper\\Tests\\OpenXmlGenericsWrapper.Tests\\UnitTest1.cs*",
+              "RelativeToolTip": "Tests\\OpenXmlGenericsWrapper.Tests\\UnitTest1.cs*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswBUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T18:39:59.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "NonGenerics.cs",
               "DocumentMoniker": "D:\\git\\Open-Xml-LabVIEW\\OpenXmlGenericsWrapper\\NonGenerics.cs",
               "RelativeDocumentMoniker": "NonGenerics.cs",
               "ToolTip": "D:\\git\\Open-Xml-LabVIEW\\OpenXmlGenericsWrapper\\NonGenerics.cs",
               "RelativeToolTip": "NonGenerics.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAADwv1AAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwBsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T06:35:45.544Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "D:\\git\\Open-Xml-LabVIEW\\OpenXmlGenericsWrapper\\Tests\\OpenXmlGenericsWrapper.Tests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "Tests\\OpenXmlGenericsWrapper.Tests\\UnitTest1.cs",
-              "ToolTip": "D:\\git\\Open-Xml-LabVIEW\\OpenXmlGenericsWrapper\\Tests\\OpenXmlGenericsWrapper.Tests\\UnitTest1.cs",
-              "RelativeToolTip": "Tests\\OpenXmlGenericsWrapper.Tests\\UnitTest1.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBAAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T18:39:59.582Z",
+              "WhenOpened": "2025-10-02T06:35:45.544Z",
               "EditorCaption": ""
             },
             {
