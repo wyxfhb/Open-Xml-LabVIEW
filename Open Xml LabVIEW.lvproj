@@ -15,7 +15,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Tests" Type="Folder">
-			<Item Name="memory leaks.vi" Type="VI" URL="../Test Open Xml/memory leaks.vi"/>
 			<Item Name="Test Open Xml.lvclass" Type="LVClass" URL="../Test Open Xml/Test Open Xml.lvclass"/>
 		</Item>
 		<Item Name="Open Xml.lvlib" Type="Library" URL="../Source/Open Xml.lvlib"/>

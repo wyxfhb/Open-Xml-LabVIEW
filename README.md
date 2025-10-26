@@ -28,10 +28,25 @@ C:\Users\<YourUserName>\.nuget\packages\documentformat.openxml\3.3.0\lib\net46
 ## Public API
 This library provides functions for retrieving cell values and named ranges in an Excel worksheet:
 
-# Get Cell Value
-Returns the value of a given worksheet's cell, handling numeric, boolean and string types.
+# Set/Get Cell Value
+Set and returns the value of a given worksheet's cell, handling numeric, boolean and string and datetime types.
 
-![readcell](sample_get_cell_value.png)
+![readcell](sample_set_cell_value.png)
+
+# Set/Get Row Values
+Sets and returns the values of a given worksheet's cell range, handling numeric, boolean and string and datetime types.
+
+![readcell](sample_set_cell_row_values.png)
+
+# Set/Get Cell Font
+Set and returns the font applied to a cell.
+
+![readcell](sample_set_cell_font.png)
+
+# Add/List Workbook Sheet
+Adds and lists sheets.
+
+![readcell](sample_add_sheet.png)
 
 # Get Named Range of Sheet (String)
 Retrieves a specified named range from a worksheet.
