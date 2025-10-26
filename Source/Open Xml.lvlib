@@ -18,7 +18,7 @@
 		<Item Name="-8346 Unsupported Value Type--error.vi" Type="VI" URL="../-8346 Unsupported Value Type--error.vi"/>
 		<Item Name="-8347 Invalid SheetcName--error.vi" Type="VI" URL="../-8347 Invalid SheetcName--error.vi"/>
 		<Item Name="-8348 Invalid Cell Range--error.vi" Type="VI" URL="../-8348 Invalid Cell Range--error.vi"/>
-		<Item Name="-8348 invalid cell format string--error.vi" Type="VI" URL="../-8348 invalid cell format string--error.vi"/>
+		<Item Name="-8349 invalid cell format string--error.vi" Type="VI" URL="../-8349 invalid cell format string--error.vi"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -64,7 +64,7 @@
 		<Item Name="Get or Add Workbook.vi" Type="VI" URL="../Get or Add Workbook.vi"/>
 		<Item Name="Get or Add Workbookpart.vi" Type="VI" URL="../Get or Add Workbookpart.vi"/>
 		<Item Name="Get or Add WorkbookStylesPart.vi" Type="VI" URL="../Get or Add WorkbookStylesPart.vi"/>
-		<Item Name="_Get Row in Worksheet.vi" Type="VI" URL="../_Get Row in Worksheet.vi"/>
+		<Item Name="Get Row in Worksheet.vi" Type="VI" URL="../Get Row in Worksheet.vi"/>
 		<Item Name="Get Sheet.vi" Type="VI" URL="../Get Sheet.vi"/>
 		<Item Name="Get SheetData.vi" Type="VI" URL="../Get SheetData.vi"/>
 		<Item Name="Get Sheets.vi" Type="VI" URL="../Get Sheets.vi"/>
