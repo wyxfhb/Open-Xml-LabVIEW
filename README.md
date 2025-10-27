@@ -21,9 +21,9 @@ C:\Users\<YourUserName>\.nuget\packages\documentformat.openxml\3.3.0\lib\net46
 
 ## Installation
 
-1. Clone the repository along with submodules:
+1. Clone the repository:
    ```sh
-   git clone --recurse-submodules https://github.com/pettaa123/Open-Xml-LabVIEW
+   git clone https://github.com/pettaa123/Open-Xml-LabVIEW
 
 ## Public API
 This library provides functions for retrieving cell values and named ranges in an Excel worksheet:

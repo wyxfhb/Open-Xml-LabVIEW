@@ -14,10 +14,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Tests" Type="Folder">
-			<Item Name="Test Open Xml.lvclass" Type="LVClass" URL="../Test Open Xml/Test Open Xml.lvclass"/>
-		</Item>
 		<Item Name="Open Xml.lvlib" Type="Library" URL="../Source/Open Xml.lvlib"/>
+		<Item Name="Tests.lvproj" Type="Document" URL="../Test Open Xml/Tests.lvproj"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
