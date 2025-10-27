@@ -1,6 +1,6 @@
 # OpenXML LabVIEW
 
-A lightweight wrapper for reading `.xlsx` Excel files using Open XML.
+A lightweight wrapper for creating and reading `.xlsx` Excel files using Open XML.
 This wrapper is tested against OpenXML version 3.3.0 and .NET Framework 4.6.
 
 ## Prerequisites
