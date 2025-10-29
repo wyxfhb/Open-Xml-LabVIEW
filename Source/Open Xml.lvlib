@@ -19,18 +19,22 @@
 		<Item Name="-8347 Invalid SheetcName--error.vi" Type="VI" URL="../-8347 Invalid SheetcName--error.vi"/>
 		<Item Name="-8348 Invalid Cell Range--error.vi" Type="VI" URL="../-8348 Invalid Cell Range--error.vi"/>
 		<Item Name="-8349 invalid cell format string--error.vi" Type="VI" URL="../-8349 invalid cell format string--error.vi"/>
+		<Item Name="-8350 Invalid Range Identifier--error.vi" Type="VI" URL="../-8350 Invalid Range Identifier--error.vi"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Add Border to Stylesheet.vi" Type="VI" URL="../Add Border to Stylesheet.vi"/>
 		<Item Name="Add Cell.vi" Type="VI" URL="../Add Cell.vi"/>
 		<Item Name="Add Cell Format.vi" Type="VI" URL="../Add Cell Format.vi"/>
+		<Item Name="Add CellFormat to CellStyleFormats.vi" Type="VI" URL="../Add CellFormat to CellStyleFormats.vi"/>
 		<Item Name="Add CellFormat to CellFormats.vi" Type="VI" URL="../Add CellFormat to CellFormats.vi"/>
 		<Item Name="Add Custom NumberingFormat.vi" Type="VI" URL="../Add Custom NumberingFormat.vi"/>
+		<Item Name="Add DefinedName.vi" Type="VI" URL="../Add DefinedName.vi"/>
 		<Item Name="Add Fill to Stylesheet.vi" Type="VI" URL="../Add Fill to Stylesheet.vi"/>
 		<Item Name="Add Font to Stylesheet.vi" Type="VI" URL="../Add Font to Stylesheet.vi"/>
 		<Item Name="Add Part.vi" Type="VI" URL="../Add Part.vi"/>
 		<Item Name="Add Row.vi" Type="VI" URL="../Add Row.vi"/>
+		<Item Name="_Add Sheet.vi" Type="VI" URL="../_Add Sheet.vi"/>
 		<Item Name="Column Letter To Number.vi" Type="VI" URL="../Column Letter To Number.vi"/>
 		<Item Name="Create CellFormat.vi" Type="VI" URL="../Create CellFormat.vi"/>
 		<Item Name="Create Cell Range.vi" Type="VI" URL="../Create Cell Range.vi"/>
@@ -40,20 +44,26 @@
 		<Item Name="Custom Format Start Index.vi" Type="VI" URL="../Custom Format Start Index.vi"/>
 		<Item Name="Ensure Default Border.vi" Type="VI" URL="../Ensure Default Border.vi"/>
 		<Item Name="Ensure Default CellFormat.vi" Type="VI" URL="../Ensure Default CellFormat.vi"/>
+		<Item Name="Ensure Default CellStyle.vi" Type="VI" URL="../Ensure Default CellStyle.vi"/>
 		<Item Name="Ensure Default CellStyleFormat.vi" Type="VI" URL="../Ensure Default CellStyleFormat.vi"/>
 		<Item Name="Ensure Default Fills.vi" Type="VI" URL="../Ensure Default Fills.vi"/>
 		<Item Name="Ensure Default Font.vi" Type="VI" URL="../Ensure Default Font.vi"/>
+		<Item Name="Excel Cell Address to Numeric Indices.vi" Type="VI" URL="../Excel Cell Address to Numeric Indices.vi"/>
 		<Item Name="Find Font.vi" Type="VI" URL="../Find Font.vi"/>
 		<Item Name="Find Row.vi" Type="VI" URL="../Find Row.vi"/>
 		<Item Name="Find StyleIndex by NumberingFormat.vi" Type="VI" URL="../Find StyleIndex by NumberingFormat.vi"/>
+		<Item Name="Format Cell Range to Named Range.vi" Type="VI" URL="../Format Cell Range to Named Range.vi"/>
 		<Item Name="Get Cell.vi" Type="VI" URL="../Get Cell.vi"/>
 		<Item Name="Get CellFormat.vi" Type="VI" URL="../Get CellFormat.vi"/>
 		<Item Name="Get Cell Type.vi" Type="VI" URL="../Get Cell Type.vi"/>
 		<Item Name="_Get Cell Value.vi" Type="VI" URL="../_Get Cell Value.vi"/>
+		<Item Name="Get DefinedName Identifier Text and SheetId.vi" Type="VI" URL="../Get DefinedName Identifier Text and SheetId.vi"/>
 		<Item Name="Get or Add Borders.vi" Type="VI" URL="../Get or Add Borders.vi"/>
 		<Item Name="Get or Add Cell.vi" Type="VI" URL="../Get or Add Cell.vi"/>
 		<Item Name="Get or Add CellFormats.vi" Type="VI" URL="../Get or Add CellFormats.vi"/>
 		<Item Name="Get or Add CellStyleFormats.vi" Type="VI" URL="../Get or Add CellStyleFormats.vi"/>
+		<Item Name="Get or Add CellStyles.vi" Type="VI" URL="../Get or Add CellStyles.vi"/>
+		<Item Name="Get or Add DefinedNames.vi" Type="VI" URL="../Get or Add DefinedNames.vi"/>
 		<Item Name="Get or Add Fills.vi" Type="VI" URL="../Get or Add Fills.vi"/>
 		<Item Name="Get or Add Font.vi" Type="VI" URL="../Get or Add Font.vi"/>
 		<Item Name="Get or Add Fonts.vi" Type="VI" URL="../Get or Add Fonts.vi"/>
@@ -61,12 +71,15 @@
 		<Item Name="Get or Add NumberingFormats.vi" Type="VI" URL="../Get or Add NumberingFormats.vi"/>
 		<Item Name="Get or Add SharedStringTable.vi" Type="VI" URL="../Get or Add SharedStringTable.vi"/>
 		<Item Name="Get or Add SharedStringTablePart.vi" Type="VI" URL="../Get or Add SharedStringTablePart.vi"/>
+		<Item Name="Get or Add Sheet.vi" Type="VI" URL="../Get or Add Sheet.vi"/>
 		<Item Name="Get or Add Sheets.vi" Type="VI" URL="../Get or Add Sheets.vi"/>
 		<Item Name="Get or Add Style Index by Format.vi" Type="VI" URL="../Get or Add Style Index by Format.vi"/>
 		<Item Name="Get or Add Stylesheet.vi" Type="VI" URL="../Get or Add Stylesheet.vi"/>
 		<Item Name="Get or Add Workbook.vi" Type="VI" URL="../Get or Add Workbook.vi"/>
 		<Item Name="Get or Add Workbookpart.vi" Type="VI" URL="../Get or Add Workbookpart.vi"/>
 		<Item Name="Get or Add WorkbookStylesPart.vi" Type="VI" URL="../Get or Add WorkbookStylesPart.vi"/>
+		<Item Name="Get DefinedName.vi" Type="VI" URL="../Get DefinedName.vi"/>
+		<Item Name="_Get Named Range.vi" Type="VI" URL="../_Get Named Range.vi"/>
 		<Item Name="Get Row in Worksheet.vi" Type="VI" URL="../Get Row in Worksheet.vi"/>
 		<Item Name="Get Sheet.vi" Type="VI" URL="../Get Sheet.vi"/>
 		<Item Name="Get SheetData.vi" Type="VI" URL="../Get SheetData.vi"/>
@@ -76,6 +89,7 @@
 		<Item Name="Insert SharedString.vi" Type="VI" URL="../Insert SharedString.vi"/>
 		<Item Name="Is Cell a Date.vi" Type="VI" URL="../Is Cell a Date.vi"/>
 		<Item Name="Lookup SharedString.vi" Type="VI" URL="../Lookup SharedString.vi"/>
+		<Item Name="Number to Column Letter.vi" Type="VI" URL="../Number to Column Letter.vi"/>
 		<Item Name="Numeric Indices to Excel Cell Address.vi" Type="VI" URL="../Numeric Indices to Excel Cell Address.vi"/>
 		<Item Name="Read Font.vi" Type="VI" URL="../Read Font.vi"/>
 		<Item Name="Set Cell DataType.vi" Type="VI" URL="../Set Cell DataType.vi"/>
@@ -84,8 +98,6 @@
 		<Item Name="Set CellFormat to DateTime.vi" Type="VI" URL="../Set CellFormat to DateTime.vi"/>
 		<Item Name="Shift Rows Below Index.vi" Type="VI" URL="../Shift Rows Below Index.vi"/>
 		<Item Name="Timestamp to Excel Serial Date.vi" Type="VI" URL="../Timestamp to Excel Serial Date.vi"/>
-		<Item Name="Excel Cell Address to Numeric Indices.vi" Type="VI" URL="../Excel Cell Address to Numeric Indices.vi"/>
-		<Item Name="Get or Add CellStyles.vi" Type="VI" URL="../Get or Add CellStyles.vi"/>
 	</Item>
 	<Item Name="Add Sheet.vi" Type="VI" URL="../Add Sheet.vi"/>
 	<Item Name="_Find Named Range.vi" Type="VI" URL="../_Find Named Range.vi">
@@ -95,23 +107,20 @@
 	<Item Name="Close.vi" Type="VI" URL="../Close.vi"/>
 	<Item Name="Create.vi" Type="VI" URL="../Create.vi"/>
 	<Item Name="File Exists.vi" Type="VI" URL="../File Exists.vi"/>
+	<Item Name="Font.ctl" Type="VI" URL="../Font.ctl"/>
 	<Item Name="Get Cell Value.vi" Type="VI" URL="../Get Cell Value.vi"/>
 	<Item Name="Get Cell Values.vi" Type="VI" URL="../Get Cell Values.vi"/>
+	<Item Name="Get Font.vi" Type="VI" URL="../Get Font.vi"/>
+	<Item Name="Get Sheet Names.vi" Type="VI" URL="../Get Sheet Names.vi"/>
+	<Item Name="Get Named Range.vi" Type="VI" URL="../Get Named Range.vi"/>
 	<Item Name="Get Named Range of Sheet (String).vi" Type="VI" URL="../Get Named Range of Sheet (String).vi"/>
 	<Item Name="Get Named Range of Sheet (VAR).vi" Type="VI" URL="../Get Named Range of Sheet (VAR).vi"/>
 	<Item Name="Get Named Ranges of Sheet.vi" Type="VI" URL="../Get Named Ranges of Sheet.vi"/>
-	<Item Name="Number to Column Letter.vi" Type="VI" URL="../Number to Column Letter.vi"/>
+	<Item Name="Get Row Values.vi" Type="VI" URL="../Get Row Values.vi"/>
 	<Item Name="Open.vi" Type="VI" URL="../Open.vi"/>
 	<Item Name="Set Cell Value.vim" Type="VI" URL="../Set Cell Value.vim"/>
-	<Item Name="Set Row Values.vi" Type="VI" URL="../Set Row Values.vi"/>
-	<Item Name="Font.ctl" Type="VI" URL="../Font.ctl"/>
+	<Item Name="Set Column Values.vi" Type="VI" URL="../Set Column Values.vi"/>
 	<Item Name="Set Font.vi" Type="VI" URL="../../Test Open Xml/Set Font.vi"/>
-	<Item Name="Get Font.vi" Type="VI" URL="../Get Font.vi"/>
-	<Item Name="Get Sheet Names.vi" Type="VI" URL="../Get Sheet Names.vi"/>
-	<Item Name="Add CellFormat to CellStyleFormats.vi" Type="VI" URL="../Add CellFormat to CellStyleFormats.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
-	<Item Name="Ensure Default CellStyle.vi" Type="VI" URL="../Ensure Default CellStyle.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
+	<Item Name="Set Row Values.vi" Type="VI" URL="../Set Row Values.vi"/>
+	<Item Name="Set Named Range.vi" Type="VI" URL="../Set Named Range.vi"/>
 </Library>

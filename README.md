@@ -8,12 +8,13 @@ This wrapper is tested against OpenXML version 3.3.0 and .NET Framework 4.6.
 Before using this library, ensure you have the following dependencies:
 
 - **LabVIEW 21**
-- **LUnit Test Framework** – [GitHub Repository](https://github.com/Astemes/astemes-lunit)
 - **Open XML SDK** – Download the following DLLs via NuGet or other sources:
   - `DocumentFormat.OpenXml.dll`
   - `DocumentFormat.OpenXml.Framework.dll`
   
   **Note:** It is recommended to place these DLLs next to each other within your project folder.
+
+- **(Optional) LUnit Test Framework** – [GitHub Repository](https://github.com/Astemes/astemes-lunit)
   
 ## Locating DLLs Installed via NuGet
 C:\Users\<YourUserName>\.nuget\packages\documentformat.openxml.framework\3.3.0\lib\net46
@@ -26,7 +27,7 @@ C:\Users\<YourUserName>\.nuget\packages\documentformat.openxml\3.3.0\lib\net46
    git clone https://github.com/pettaa123/Open-Xml-LabVIEW
 
 ## Public API
-This library provides functions for retrieving cell values and named ranges in an Excel worksheet:
+This library provides functions for setting/retrieving cell values and named ranges in an Excel worksheet:
 
 # Set/Get Cell Value
 Set and returns the value of a given worksheet's cell, handling numeric, boolean and string and datetime types.
