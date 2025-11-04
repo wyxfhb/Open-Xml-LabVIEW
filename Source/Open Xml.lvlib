@@ -8,6 +8,10 @@
 	<Property Name="NI_IconEditor" Type="Str">50 53 49 50 56 48 48 50 13 0 0 0 0 1 23 21 76 111 97 100 32 38 32 85 110 108 111 97 100 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 9 0 0 4 48 1 100 1 100 80 84 72 48 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 15 13 76 97 121 101 114 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 7 0 0 3 189 0 0 0 0 0 0 0 0 0 0 3 162 0 40 0 0 3 156 0 0 3 96 0 0 0 0 0 9 0 32 0 24 0 0 0 0 0 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 184 255 192 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 7 86 73 32 73 99 111 110 100 1 0 0 0 0 0 7 79 80 69 78 88 77 76 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11 83 109 97 108 108 32 70 111 110 116 115 0 1 8 1 1
 
 </Property>
+	<Item Name="controls" Type="Folder">
+		<Item Name="Cell DataType.ctl" Type="VI" URL="../Cell DataType.ctl"/>
+		<Item Name="Font.ctl" Type="VI" URL="../Font.ctl"/>
+	</Item>
 	<Item Name="errors" Type="Folder">
 		<Item Name="-8340 No File--error.vi" Type="VI" URL="../-8340 No File--error.vi"/>
 		<Item Name="-8341 Invalid Lexical Index--error.vi" Type="VI" URL="../-8341 Invalid Lexical Index--error.vi"/>
@@ -49,6 +53,7 @@
 		<Item Name="Ensure Default Fills.vi" Type="VI" URL="../Ensure Default Fills.vi"/>
 		<Item Name="Ensure Default Font.vi" Type="VI" URL="../Ensure Default Font.vi"/>
 		<Item Name="Excel Cell Address to Numeric Indices.vi" Type="VI" URL="../Excel Cell Address to Numeric Indices.vi"/>
+		<Item Name="File Exists.vi" Type="VI" URL="../File Exists.vi"/>
 		<Item Name="Find Font.vi" Type="VI" URL="../Find Font.vi"/>
 		<Item Name="Find Row.vi" Type="VI" URL="../Find Row.vi"/>
 		<Item Name="Find StyleIndex by NumberingFormat.vi" Type="VI" URL="../Find StyleIndex by NumberingFormat.vi"/>
@@ -100,22 +105,16 @@
 		<Item Name="Timestamp to Excel Serial Date.vi" Type="VI" URL="../Timestamp to Excel Serial Date.vi"/>
 	</Item>
 	<Item Name="Add Sheet.vi" Type="VI" URL="../Add Sheet.vi"/>
-	<Item Name="_Find Named Range.vi" Type="VI" URL="../_Find Named Range.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
-	<Item Name="Cell DataType.ctl" Type="VI" URL="../Cell DataType.ctl"/>
 	<Item Name="Close.vi" Type="VI" URL="../Close.vi"/>
 	<Item Name="Create.vi" Type="VI" URL="../Create.vi"/>
-	<Item Name="File Exists.vi" Type="VI" URL="../File Exists.vi"/>
-	<Item Name="Font.ctl" Type="VI" URL="../Font.ctl"/>
 	<Item Name="Get Cell Value.vi" Type="VI" URL="../Get Cell Value.vi"/>
 	<Item Name="Get Cell Values.vi" Type="VI" URL="../Get Cell Values.vi"/>
 	<Item Name="Get Font.vi" Type="VI" URL="../Get Font.vi"/>
 	<Item Name="Get Sheet Names.vi" Type="VI" URL="../Get Sheet Names.vi"/>
 	<Item Name="Get Named Range.vi" Type="VI" URL="../Get Named Range.vi"/>
-	<Item Name="Get Named Range of Sheet (String).vi" Type="VI" URL="../Get Named Range of Sheet (String).vi"/>
-	<Item Name="Get Named Range of Sheet (VAR).vi" Type="VI" URL="../Get Named Range of Sheet (VAR).vi"/>
-	<Item Name="Get Named Ranges of Sheet.vi" Type="VI" URL="../Get Named Ranges of Sheet.vi"/>
+	<Item Name="Get Named Ranges.vi" Type="VI" URL="../Get Named Ranges.vi"/>
+	<Item Name="Get Named Range Values (String).vi" Type="VI" URL="../Get Named Range Values (String).vi"/>
+	<Item Name="Get Named Range Values (VAR).vi" Type="VI" URL="../Get Named Range Values (VAR).vi"/>
 	<Item Name="Get Row Values.vi" Type="VI" URL="../Get Row Values.vi"/>
 	<Item Name="Open.vi" Type="VI" URL="../Open.vi"/>
 	<Item Name="Set Cell Value.vim" Type="VI" URL="../Set Cell Value.vim"/>
