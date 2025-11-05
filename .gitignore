@@ -19,3 +19,6 @@
 .cache
 .Up2Data
 obj/Debug
+
+# Testdata
+*.xlsx

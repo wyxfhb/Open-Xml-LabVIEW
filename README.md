@@ -12,7 +12,7 @@ Before using this library, ensure you have the following dependencies:
   - `DocumentFormat.OpenXml.dll`
   - `DocumentFormat.OpenXml.Framework.dll`
   
-  **Note:** It is recommended to place these DLLs next to each other within your project folder.
+  **Note:** It is recommended to place these DLLs in the repo's dll folder.
 
 - **(Optional) LUnit Test Framework** – [GitHub Repository](https://github.com/Astemes/astemes-lunit)
   
@@ -30,32 +30,39 @@ C:\Users\<YourUserName>\.nuget\packages\documentformat.openxml\3.3.0\lib\net46
 This library provides functions for setting/retrieving cell values and named ranges in an Excel worksheet:
 
 # Set/Get Cell Value
-Set and returns the value of a given worksheet's cell, handling numeric, boolean and string and datetime types.
+Set and returns the value of a given worksheet's cell, handling numeric, boolean and string and datetime types and arrays.
 
-![readcell](sample_set_cell_value.png)
+![setcell](sample_set_cell_value.png)
+
+# Set/Get Cell Value
+Set and returns the value of a given worksheet's cell range.
+
+![setcells](sample_set_cell_value_2d_int.png)
 
 # Set/Get Row Values
 Sets and returns the values of a given worksheet's cell range, handling numeric, boolean and string and datetime types.
 
-![readcell](sample_set_cell_row_values.png)
+![setrowvals](sample_set_cell_row_values.png)
 
 # Set/Get Cell Font
 Set and returns the font applied to a cell.
 
-![readcell](sample_set_cell_font.png)
+![setfont](sample_set_cell_font.png)
 
 # Add/List Workbook Sheet
 Adds and lists sheets.
 
-![readcell](sample_add_sheet.png)
+![addsheet](sample_add_sheet.png)
 
-# Get Named Range of Sheet (String)
+# Get Named Range Values (String)
 Retrieves a specified named range from a worksheet.
 
-![readcell](sample_get_named_range_var.png)
+![namedrangestr](sample_get_named_range_values_str.png)
 
-# Get Named Range of Sheet (VAR)
+# Get Named Range Values (VAR)
 Retrieves a specified named range from a worksheet.
 
-# Get Named Ranges of Sheet
+![namedrangevar](sample_get_named_range_values_var.png)
+
+# Get Named Range
 Lists all named ranges defined within a worksheet.
