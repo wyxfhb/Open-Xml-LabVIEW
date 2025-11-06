@@ -98,7 +98,7 @@
 		<Item Name="Numeric Indices to Excel Cell Address.vi" Type="VI" URL="../Numeric Indices to Excel Cell Address.vi"/>
 		<Item Name="Read Font.vi" Type="VI" URL="../Read Font.vi"/>
 		<Item Name="Set Cell DataType.vi" Type="VI" URL="../Set Cell DataType.vi"/>
-		<Item Name="Set Cell Font.vi" Type="VI" URL="../../Test Open Xml/Set Cell Font.vi"/>
+		<Item Name="Set Cell Font.vi" Type="VI" URL="../Set Cell Font.vi"/>
 		<Item Name="Set CellValue.vi" Type="VI" URL="../Set CellValue.vi"/>
 		<Item Name="Set CellFormat to DateTime.vi" Type="VI" URL="../Set CellFormat to DateTime.vi"/>
 		<Item Name="Shift Rows Below Index.vi" Type="VI" URL="../Shift Rows Below Index.vi"/>

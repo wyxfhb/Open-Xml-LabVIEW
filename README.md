@@ -1,24 +1,23 @@
 # OpenXML LabVIEW
 
 A lightweight wrapper for creating and reading `.xlsx` Excel files using Open XML.
-This wrapper is tested against OpenXML version 3.3.0 and .NET Framework 4.6.
+This wrapper is tested against [OpenXML](https://github.com/dotnet/Open-XML-SDK) version 3.3.0 and .NET Framework 4.6.
+
+## VIPM
+
+In the vipm folder is a vipm package containing everything to use this wrapper. It creates a 'Open XML' palette under functions. 
 
 ## Prerequisites
 
-Before using this library, ensure you have the following dependencies:
-
 - **LabVIEW 19**
-- **Open XML SDK** – Download the following DLLs via NuGet or other sources:
+- **(Optional) Open XML SDK** – Download the following DLLs via NuGet when cloning this repository:
   - `DocumentFormat.OpenXml.dll`
   - `DocumentFormat.OpenXml.Framework.dll`
   
-  **Note:** It is recommended to place these DLLs in the repo's dll folder.
+  **Note:** It is recommended to place these DLLs in the repo's Source folder.
 
 - **(Optional) LUnit Test Framework (LabVIEW 20)** – [GitHub Repository](https://github.com/Astemes/astemes-lunit)
-  
-## Locating DLLs Installed via NuGet
-C:\Users\<YourUserName>\.nuget\packages\documentformat.openxml.framework\3.3.0\lib\net46
-C:\Users\<YourUserName>\.nuget\packages\documentformat.openxml\3.3.0\lib\net46
+
 
 ## Installation
 
