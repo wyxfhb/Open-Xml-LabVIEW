@@ -24,7 +24,7 @@
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Absolute Difference Less Than.vim" Type="VI" URL="../../Source/Absolute Difference Less Than.vim">
+		<Item Name="Absolute Difference Less Than.vim" Type="VI" URL="../Private/Absolute Difference Less Than.vim">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#8!!!!"A!%!!!!$E!B#%FO)%RJ&lt;7FU!!!,1!I!"5RJ&lt;7FU!!^!#A!)4H6N9G6S)$)!!!^!#A!)4H6N9G6S)$%!!&amp;1!]!!-!!!!!!!!!!%!!!!!!!!!!A!!!!-!!!!%!A!!?!!!!!!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#!!!!!!!!!!+!!!!!!%!"1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
