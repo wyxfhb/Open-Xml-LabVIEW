@@ -13,6 +13,7 @@
 		<Item Name="Font.ctl" Type="VI" URL="../Font.ctl"/>
 	</Item>
 	<Item Name="errors" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="-8340 No File--error.vi" Type="VI" URL="../-8340 No File--error.vi"/>
 		<Item Name="-8341 Invalid Lexical Index--error.vi" Type="VI" URL="../-8341 Invalid Lexical Index--error.vi"/>
 		<Item Name="-8342 Invalid Index--error.vi" Type="VI" URL="../-8342 Invalid Index--error.vi"/>
