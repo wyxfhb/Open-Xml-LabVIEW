@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-11-05 10:22:55" Modified_Date="2025-11-11 10:10:59" Creator="tupp_js" Comments="" ID="47c35e89b7587560fecef8f8c3de1fc9">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-11-05 10:22:55" Modified_Date="2025-11-11 18:47:48" Creator="tupp_js" Comments="" ID="c0cf17bd14f9a762ce5e51307332e091">
   <Library_General_Settings>
     <Package_File_Name>Peter_lib_Open_Xml</Package_File_Name>
-    <Library_Version>1.0.0.6</Library_Version>
+    <Library_Version>1.0.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -502,7 +502,7 @@
         <Path>..\Source\Set Column Values.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C8EDE1CBB97B6FF03D2F6528F8CE6F4A</GUID>
+      <GUID>1E7B9E7A21C64729B2FD4C4F4CC3572E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
