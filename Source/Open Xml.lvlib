@@ -25,6 +25,7 @@
 		<Item Name="-8348 Invalid Cell Range--error.vi" Type="VI" URL="../-8348 Invalid Cell Range--error.vi"/>
 		<Item Name="-8349 invalid cell format string--error.vi" Type="VI" URL="../-8349 invalid cell format string--error.vi"/>
 		<Item Name="-8350 Invalid Range Identifier--error.vi" Type="VI" URL="../-8350 Invalid Range Identifier--error.vi"/>
+		<Item Name="-8351 Cant interprete value as boolean--error.vi" Type="VI" URL="../-8351 Cant interprete value as boolean--error.vi"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -114,6 +115,7 @@
 	<Item Name="Get Sheet Names.vi" Type="VI" URL="../Get Sheet Names.vi"/>
 	<Item Name="Get Named Range.vi" Type="VI" URL="../Get Named Range.vi"/>
 	<Item Name="Get Named Ranges.vi" Type="VI" URL="../Get Named Ranges.vi"/>
+	<Item Name="Get Named Range Values (Boolean).vi" Type="VI" URL="../Get Named Range Values (Boolean).vi"/>
 	<Item Name="Get Named Range Values (String).vi" Type="VI" URL="../Get Named Range Values (String).vi"/>
 	<Item Name="Get Named Range Values (VAR).vi" Type="VI" URL="../Get Named Range Values (VAR).vi"/>
 	<Item Name="Get Row Values.vi" Type="VI" URL="../Get Row Values.vi"/>
